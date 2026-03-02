@@ -1,0 +1,17 @@
+:root{--ink:#003366;--bg:#f5f7fa;--text:#222;--muted:#6a7a90;--card:#fff;}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+.hero{background:var(--ink);color:#fff;padding:64px 0 72px;text-align:center}
+.logo{width:120px;height:auto;margin:0 auto 16px;display:block}
+.hero h1{margin:0;font-size:44px;letter-spacing:1px}
+.tag{margin:8px 0 24px;color:#e6eef9;font-size:18px}
+.cta{display:inline-block;background:#fff;color:var(--ink);padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+main{padding:32px 0}
+.card{background:var(--card);border-radius:12px;padding:24px;margin:16px 0;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card h2,.card h3{color:var(--ink);margin-top:0}
+.card p{margin:6px 0 0}
+.note{color:var(--muted);font-size:14px}
+.footer{text-align:center;color:var(--muted);padding:32px 0}
